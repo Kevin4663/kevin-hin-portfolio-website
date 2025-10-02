@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@plugin "daisyui" {
+  themes: dim;
+}
+
+/* Smooth scroll and fix for fixed navbar overlap */
+html {
+  scroll-behavior: smooth;
+}
+section {
+  scroll-margin-top: 5rem;
+} /* adjust to match navbar height */
+
+/* Responsive iframe */
+.embed-iframe {
+  width: 100%;
+  height: 400px;
+}
+@media (min-width: 768px) {
+  .embed-iframe {
+    height: 600px;
+  }
+}
