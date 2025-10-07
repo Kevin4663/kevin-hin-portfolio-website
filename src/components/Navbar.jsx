@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 w-full bg-base-200 shadow-md z-100">
       <div className="max-w-6xl mx-auto px-4 flex justify-between items-center py-3">
-        <h1 className="text-xl font-bold text-primary">Kevin Hin</h1>
+        <img src="logo.svg"></img>
 
         <button onClick={() => setIsOpen(!isOpen)} className="sm:hidden">
           ☰

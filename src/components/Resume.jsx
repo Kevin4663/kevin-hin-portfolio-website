@@ -26,7 +26,7 @@ const Resume = () => {
 
         <div className="w-full md:w-64 flex-shrink-0">
           <div className="p-4 rounded-lg border shadow bg-base-100">
-            <p className="mb-4">Download a copy.</p>
+            <p className="mb-4">Download a copy</p>
             <a
               href="/resume.pdf"
               download
@@ -35,7 +35,7 @@ const Resume = () => {
               Download Resume (PDF)
             </a>
 
-            <p className="mb-4">Conact me at</p>
+            <p className="mb-4">Contact me at</p>
             <a
               href="mailto:kevinhin0830@gmail.com"
               className="btn btn-primary w-full mb-2"

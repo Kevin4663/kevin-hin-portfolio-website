@@ -1,7 +1,6 @@
 @import "tailwindcss";
-@plugin "daisyui";
 @plugin "daisyui" {
-  themes: dim;
+  themes: all;
 }
 
 /* Smooth scroll and fix for fixed navbar overlap */

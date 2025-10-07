@@ -9,7 +9,7 @@ const Hero = () => {
       </h1>
       <p className="text-lg max-w-2xl">
         I build tools I’d actually use — turning my interests in gaming and tech
-        into real, functional web apps.
+        into real, functional web apps
       </p>
       <div className="mt-6 flex gap-4">
         <a href="#projects" className="btn btn-primary">

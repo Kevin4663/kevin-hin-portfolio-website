@@ -5,8 +5,8 @@ const About = () => {
       <p className="text-lg">
         I’m a passionate tech enthusiast and full-stack developer. I love
         exploring new technologies and building projects that solve real-world
-        problems. My hobbies include esports, gaming and tinking with PCs from
-        Raspberry Pi's to custom builds
+        problems. My hobbies include esports, gaming and tinkering from PCs to
+        3D printing
       </p>
       <div className="mt-8 space-y-1">
         <p>
